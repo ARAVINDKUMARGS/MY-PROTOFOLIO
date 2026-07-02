@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aravind Kumar GS — Full-Stack Developer &amp; Systems Engineer</title>
+<meta name="description" content="Aravind Kumar GS — Final-year CSE student building software from the silicon up: register-level embedded drivers, a computer built from first principles, and production MERN-stack applications." />
+<meta name="keywords" content="Aravind Kumar GS, Full Stack Developer, MERN Stack, Embedded Systems, STM32, React Developer, Node.js, Chennai" />
+<meta name="author" content="Aravind Kumar GS" />
+<meta name="robots" content="index, follow" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Aravind Kumar GS — Full-Stack Developer & Systems Engineer" />
+<meta property="og:description" content="I build software from the silicon up — register-level embedded drivers to production-ready web applications." />
+<meta property="og:image" content="assets/og-image.png" />
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- decorative fixed layer -->
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">AK<span class="brand-dot">.</span>GS</a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#stack">Stack</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle light and dark theme" title="Toggle theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Available for full-time &amp; internship roles</p>
+        <h1 class="hero-title">
+          Aravind Kumar <span class="accent">GS</span>
+        </h1>
+        <p class="hero-role">Full-Stack Developer &amp; Systems Engineer</p>
+        <p class="hero-tagline">
+          I build software from the silicon up — from register-level embedded drivers and a
+          hand-built computer, to production-ready MERN applications people actually use.
+        </p>
+
+        <div class="hero-cta">
+          <a href="assets/Aravind_Kumar_GS_Resume.pdf" class="btn btn-primary" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+            View Resume
+          </a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+          <a href="#projects" class="btn btn-ghost">View Projects →</a>
+        </div>
+
+        <div class="hero-meta">
+          <span>Chennai, Tamil Nadu, India</span>
+          <span class="dot-sep">·</span>
+          <span>CGPA 8.56 / 10</span>
+          <span class="dot-sep">·</span>
+          <span>7 Internships Completed</span>
+        </div>
+      </div>
+
+      <!-- SIGNATURE ELEMENT: the stack -->
+      <div class="hero-stack" id="heroStack" aria-label="Layers of the stack Aravind has built, from hardware registers to user interface">
+        <div class="stack-layer" data-layer="ui" tabindex="0">
+          <div class="layer-head">
+            <span class="layer-index">L4</span>
+            <span class="layer-name">Interface</span>
+          </div>
+          <p class="layer-detail">React · Angular · HTML5 · CSS3 — what the user touches</p>
+        </div>
+        <div class="stack-layer" data-layer="api" tabindex="0">
+          <div class="layer-head">
+            <span class="layer-index">L3</span>
+            <span class="layer-name">Application</span>
+          </div>
+          <p class="layer-detail">Node.js · Express · Spring · REST APIs — the logic layer</p>
+        </div>
+        <div class="stack-layer" data-layer="data" tabindex="0">
+          <div class="layer-head">
+            <span class="layer-index">L2</span>
+            <span class="layer-name">Data</span>
+          </div>
+          <p class="layer-detail">MongoDB · MySQL — where state lives</p>
+        </div>
+        <div class="stack-layer" data-layer="system" tabindex="0">
+          <div class="layer-head">
+            <span class="layer-index">L1</span>
+            <span class="layer-name">Systems</span>
+          </div>
+          <p class="layer-detail">Assembler · Compiler · VM translator — Nand2Tetris, built by hand</p>
+        </div>
+        <div class="stack-layer" data-layer="hardware" tabindex="0">
+          <div class="layer-head">
+            <span class="layer-index">L0</span>
+            <span class="layer-name">Hardware</span>
+          </div>
+          <p class="layer-detail">STM32F407 registers · NVIC/EXTI/RCC · no HAL</p>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="section-head">
+        <p class="section-label">01 / About</p>
+        <h2>Comfortable at every layer of the stack</h2>
+      </div>
+      <div class="about-body">
+        <p>
+          I'm a final-year Computer Science Engineering student in Chennai with a CGPA of 8.56/10 and
+          seven internships behind me — spanning full-stack web development, Python automation, and
+          C++ engineering. Most people who call themselves "full-stack" mean React and Node. I mean
+          that too, but I've also written peripheral drivers for an ARM Cortex-M4 by hand, and built a
+          working computer — ALU, CPU, assembler, compiler, OS — from sixteen NAND gates upward.
+        </p>
+        <p>
+          That range shapes how I work: I debug with the calm of someone who's traced a fault down to a
+          register bit, and I ship product features with the speed of someone who's built four
+          full-stack projects in a single internship cycle. I'm looking for a full-time or internship
+          role where that combination — systems thinking plus product velocity — actually matters.
+        </p>
+        <div class="about-strengths">
+          <div class="strength">
+            <span class="strength-num">08+</span>
+            <span class="strength-label">Full-stack &amp; systems projects shipped</span>
+          </div>
+          <div class="strength">
+            <span class="strength-num">07</span>
+            <span class="strength-label">Internships across product &amp; embedded teams</span>
+          </div>
+          <div class="strength">
+            <span class="strength-num">100%</span>
+            <span class="strength-label">Score on Nand2Tetris Part I (Hebrew University)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="section-label">02 / Skills</p>
+        <h2>Tools I reach for</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <ul class="skill-bars">
+            <li><span class="skill-name">C / C++ <span class="skill-tag">Embedded C</span></span><span class="bar"><i style="--w:90%"></i></span></li>
+            <li><span class="skill-name">Python</span><span class="bar"><i style="--w:90%"></i></span></li>
+            <li><span class="skill-name">JavaScript (ES6)</span><span class="bar"><i style="--w:88%"></i></span></li>
+            <li><span class="skill-name">Java</span><span class="bar"><i style="--w:80%"></i></span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Frameworks &amp; Libraries</h3>
+          <ul class="skill-bars">
+            <li><span class="skill-name">React.js</span><span class="bar"><i style="--w:88%"></i></span></li>
+            <li><span class="skill-name">Node.js / Express.js</span><span class="bar"><i style="--w:90%"></i></span></li>
+            <li><span class="skill-name">Angular</span><span class="bar"><i style="--w:75%"></i></span></li>
+            <li><span class="skill-name">Spring</span><span class="bar"><i style="--w:70%"></i></span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tools &amp; Technologies</h3>
+          <ul class="skill-bars">
+            <li><span class="skill-name">MongoDB / MySQL</span><span class="bar"><i style="--w:85%"></i></span></li>
+            <li><span class="skill-name">STM32 · ARM Cortex-M4</span><span class="bar"><i style="--w:82%"></i></span></li>
+            <li><span class="skill-name">UART · I2C · SPI · GPIO</span><span class="bar"><i style="--w:85%"></i></span></li>
+            <li><span class="skill-name">Git · Postman · VS Code</span><span class="bar"><i style="--w:90%"></i></span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Core CS &amp; Soft Skills</h3>
+          <div class="chip-row">
+            <span class="chip">Data Structures &amp; Algorithms</span>
+            <span class="chip">OOP</span>
+            <span class="chip">DBMS</span>
+            <span class="chip">Computer Architecture</span>
+            <span class="chip">Compilers</span>
+            <span class="chip">Problem Solving</span>
+            <span class="chip">Cross-team Communication</span>
+            <span class="chip">Ownership</span>
+            <span class="chip">Fast Learning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STACK STORY STRIP ============ -->
+  <section class="stack-strip" id="stack">
+    <div class="section-inner">
+      <p class="section-label light">Why "full-stack" means something different here</p>
+      <div class="strip-track">
+        <div class="strip-item"><span>L0 Hardware</span>Registers, NVIC, EXTI — no HAL</div>
+        <div class="strip-arrow">→</div>
+        <div class="strip-item"><span>L1 Systems</span>Assembler, VM, compiler, OS</div>
+        <div class="strip-arrow">→</div>
+        <div class="strip-item"><span>L2 Data</span>MongoDB, MySQL schemas</div>
+        <div class="strip-arrow">→</div>
+        <div class="strip-item"><span>L3 Application</span>Express &amp; Spring REST APIs</div>
+        <div class="strip-arrow">→</div>
+        <div class="strip-item"><span>L4 Interface</span>React &amp; Angular UIs</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="section-label">03 / Projects</p>
+        <h2>Things I've built</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-layer">L0 · Hardware</span>
+            <a href="https://github.com/ARAVINDKUMARGS" target="_blank" rel="noopener" class="project-link" aria-label="View on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.5.1-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6.2 0c2.4-1.5 3.4-1.2 3.4-1.2.7 1.7.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3z"/></svg>
+            </a>
+          </div>
+          <h3>STM32 Peripheral Driver Suite</h3>
+          <p class="project-problem">
+            <strong>Problem:</strong> most embedded intros stop at HAL calls. I wanted to know what a
+            HAL function actually does underneath.
+          </p>
+          <p class="project-detail">
+            Built four peripheral drivers — GPIO, SPI, I2C, USART — entirely through direct register
+            programming on an STM32F407G-DISC1 (ARM Cortex-M4), with zero HAL. Implemented both polling
+            and interrupt-driven modes, hand-configuring NVIC, EXTI, and RCC registers.
+          </p>
+          <div class="project-tech">
+            <span class="chip chip-sm">STM32F407</span>
+            <span class="chip chip-sm">Embedded C</span>
+            <span class="chip chip-sm">ARM Cortex-M4</span>
+            <span class="chip chip-sm">NVIC / EXTI / RCC</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-layer">L1 · Systems</span>
+            <a href="https://github.com/ARAVINDKUMARGS" target="_blank" rel="noopener" class="project-link" aria-label="View on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.5.1-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6.2 0c2.4-1.5 3.4-1.2 3.4-1.2.7 1.7.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3z"/></svg>
+            </a>
+          </div>
+          <h3>Nand2Tetris — A Computer from First Principles</h3>
+          <p class="project-problem">
+            <strong>Problem:</strong> understand what actually happens between a NAND gate and a
+            running program, with nothing taken on faith.
+          </p>
+          <p class="project-detail">
+            Built a complete computer system bottom-up — ALU, CPU, memory hierarchy, assembler, VM
+            translator, compiler, and a simple OS — starting from a single NAND gate.
+          </p>
+          <div class="project-tech">
+            <span class="chip chip-sm">Computer Architecture</span>
+            <span class="chip chip-sm">Compilers</span>
+            <span class="chip chip-sm">Assembler / VM</span>
+          </div>
+          <p class="project-achievement">100% on Part I · 93.6% on Part II — Coursera, Hebrew University of Jerusalem</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-layer">L2–L4 · Full Stack</span>
+            <a href="https://github.com/ARAVINDKUMARGS" target="_blank" rel="noopener" class="project-link" aria-label="View on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.5.1-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6.2 0c2.4-1.5 3.4-1.2 3.4-1.2.7 1.7.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3z"/></svg>
+            </a>
+          </div>
+          <h3>CRM Application (MERN Stack)</h3>
+          <p class="project-problem">
+            <strong>Problem:</strong> give a small sales team one place to track client data and
+            customer interactions.
+          </p>
+          <p class="project-detail">
+            Full-stack CRM system with CRUD operations and REST APIs for managing client records,
+            built as part of the IBM Naan Mudhalvan (TN Skill Development Initiative) virtual
+            internship with AdroIT Technologies.
+          </p>
+          <div class="project-tech">
+            <span class="chip chip-sm">MongoDB</span>
+            <span class="chip chip-sm">Express.js</span>
+            <span class="chip chip-sm">React.js</span>
+            <span class="chip chip-sm">Node.js</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-layer">L2–L3 · Backend</span>
+            <a href="https://github.com/ARAVINDKUMARGS" target="_blank" rel="noopener" class="project-link" aria-label="View on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.5.1-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6.2 0c2.4-1.5 3.4-1.2 3.4-1.2.7 1.7.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3z"/></svg>
+            </a>
+          </div>
+          <h3>Task Manager REST API</h3>
+          <p class="project-problem">
+            <strong>Problem:</strong> ship a production-style task API, not just a CRUD toy.
+          </p>
+          <p class="project-detail">
+            Built with full CRUD, filtering, sorting, search, pagination, and centralized error
+            handling — one of four projects completed during the Decode Labs internship, which led to
+            a Certificate of Completion and a Letter of Recommendation.
+          </p>
+          <div class="project-tech">
+            <span class="chip chip-sm">Node.js</span>
+            <span class="chip chip-sm">Express.js</span>
+            <span class="chip chip-sm">MongoDB</span>
+            <span class="chip chip-sm">Mongoose</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-layer">L2–L4 · Full Stack</span>
+            <a href="https://github.com/ARAVINDKUMARGS" target="_blank" rel="noopener" class="project-link" aria-label="View on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.5.1-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6.2 0c2.4-1.5 3.4-1.2 3.4-1.2.7 1.7.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3z"/></svg>
+            </a>
+          </div>
+          <h3>Student Management System</h3>
+          <p class="project-problem">
+            <strong>Problem:</strong> replace manual record-keeping for student registrations and
+            academic data with a proper application.
+          </p>
+          <p class="project-detail">
+            Full-stack application for managing student records and academic data, combining a Java
+            application layer with Python tooling on a MySQL backend.
+          </p>
+          <div class="project-tech">
+            <span class="chip chip-sm">Java</span>
+            <span class="chip chip-sm">Python</span>
+            <span class="chip chip-sm">MySQL</span>
+          </div>
+        </article>
+
+        <article class="project-card project-card-cta">
+          <h3>More on GitHub</h3>
+          <p class="project-detail">
+            These are the highlights — the full history of commits, experiments, and in-progress work
+            lives on my GitHub.
+          </p>
+          <a href="https://github.com/ARAVINDKUMARGS" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+            Visit GitHub Profile →
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section section-alt" id="experience">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="section-label">04 / Experience</p>
+        <h2>Where I've worked</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jun 2026 – Present</div>
+          <div class="timeline-body">
+            <h3>Full Stack Developer Intern <span class="timeline-org">· NEXLEVR</span></h3>
+            <p>Contributing to real-world full-stack projects and strengthening production-level development skills.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2026</div>
+          <div class="timeline-body">
+            <h3>Full Stack Development Intern <span class="timeline-org">· Decode Labs</span></h3>
+            <p>Completed four full-stack projects — a frontend landing page, backend REST APIs, and a production-style Task Manager API. Earned a Certificate of Completion and a Letter of Recommendation.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2025 – 2026</div>
+          <div class="timeline-body">
+            <h3>Full Stack (MERN) Virtual Intern <span class="timeline-org">· AdroIT Technologies — IBM Naan Mudhalvan</span></h3>
+            <p>Built a full-stack CRM application for managing client data and tracking customer interactions, certified on completion under the Tamil Nadu Skill Development Initiative.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2025</div>
+          <div class="timeline-body">
+            <h3>Frontend Developer Intern <span class="timeline-org">· ZeTheta</span></h3>
+            <p>Built a multi-step loan application UI, implementing form flow across stages, input validation, and state management.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2025</div>
+          <div class="timeline-body">
+            <h3>Software Development Intern <span class="timeline-org">· SkillCraft Technology</span></h3>
+            <p>Developed Java and Python applications; identified and resolved coding issues across the codebase.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2025</div>
+          <div class="timeline-body">
+            <h3>Python Developer Intern <span class="timeline-org">· CodSoft</span></h3>
+            <p>Built automation scripts and data-processing tools; assisted in debugging existing applications.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2025</div>
+          <div class="timeline-body">
+            <h3>Python Programming Intern / C++ Developer Intern <span class="timeline-org">· CodeAlpha &amp; Kodbud</span></h3>
+            <p>Delivered hands-on Python programming projects at CodeAlpha and C++ software solutions applying OOP, STL, and memory management at Kodbud.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="leadership-block">
+        <h3>Leadership &amp; Involvement</h3>
+        <ul class="leadership-list">
+          <li>Winner, inter-college hackathon competitions</li>
+          <li>Member, DOS Club — Meenakshi College of Engineering</li>
+          <li>Completed virtual experience programs with JPMorgan Chase, Accenture (×2), Datacom, Tata, and Lloyds Banking Group (Forage)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section" id="education">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="section-label">05 / Education</p>
+        <h2>Foundation</h2>
+      </div>
+      <div class="edu-card">
+        <div class="edu-main">
+          <h3>B.E., Computer Science and Engineering</h3>
+          <p class="edu-school">Meenakshi College of Engineering, Chennai, Tamil Nadu</p>
+        </div>
+        <div class="edu-side">
+          <span class="edu-stat">CGPA 8.56 / 10</span>
+          <span class="edu-stat">Expected 2027</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section class="section section-alt" id="certifications">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="section-label">06 / Certifications &amp; Achievements</p>
+        <h2>Verified learning</h2>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <h3>Mastering Microcontroller &amp; Embedded Driver Development</h3>
+          <p>Udemy — FastBit Embedded Brain Academy</p>
+        </div>
+        <div class="cert-card">
+          <h3>Communication Protocols: UART, USART, I2C, I3C, SPI, GPIO</h3>
+          <p>Udemy — Protocol Pro</p>
+        </div>
+        <div class="cert-card">
+          <h3>Nand to Tetris, Part I &amp; II</h3>
+          <p>Coursera — Hebrew University of Jerusalem · 100% / 93.6%</p>
+        </div>
+        <div class="cert-card">
+          <h3>Data Analysis with Python</h3>
+          <p>freeCodeCamp</p>
+        </div>
+        <div class="cert-card">
+          <h3>Spring REST, PyCharm, Angular</h3>
+          <p>Infosys Springboard</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact-section" id="contact">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="section-label">07 / Contact</p>
+        <h2>Let's build something</h2>
+        <p class="contact-sub">Open to full-time and internship roles in full-stack, backend, or embedded systems engineering.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-links">
+          <a href="mailto:aravindkumar06062006@gmail.com" class="contact-row">
+            <span class="contact-icon">✉</span>
+            <span>aravindkumar06062006@gmail.com</span>
+          </a>
+          <a href="tel:+919342632672" class="contact-row">
+            <span class="contact-icon">☎</span>
+            <span>+91 93426 32672</span>
+          </a>
+          <a href="https://www.linkedin.com/in/aravind-kumar-gs-30b3852a3" target="_blank" rel="noopener" class="contact-row">
+            <span class="contact-icon">in</span>
+            <span>linkedin.com/in/aravind-kumar-gs</span>
+          </a>
+          <a href="https://github.com/ARAVINDKUMARGS" target="_blank" rel="noopener" class="contact-row">
+            <span class="contact-icon">⌥</span>
+            <span>github.com/ARAVINDKUMARGS</span>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label for="cf-name">Name</label>
+          <input id="cf-name" name="name" type="text" required placeholder="Your name" />
+
+          <label for="cf-email">Email</label>
+          <input id="cf-email" name="email" type="email" required placeholder="you@example.com" />
+
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="4" required placeholder="What are you looking to build?"></textarea>
+
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <p>© <span id="year"></span> Aravind Kumar GS. Built from the silicon up.</p>
+    <div class="footer-links">
+      <a href="https://github.com/ARAVINDKUMARGS" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/aravind-kumar-gs-30b3852a3" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:aravindkumar06062006@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
